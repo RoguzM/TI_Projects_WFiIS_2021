@@ -1,8 +1,0 @@
-{
-
-    "require": {
-        "mongodb/mongodb": "^1.4",
-        "ext-dba": "*" ,
-    "ext-xsl": "*" 
-    }
-}
