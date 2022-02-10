@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    <title>Projekt1- Michał Roguz</title>
+</head>
+<body>
+  <script src="scripts.js"></script>
+  <div class="stars">
+    <div class="twinkling">
+
+<header class="header">
+    <div class="logos_left">
+        <img class="logo2" src="wfiis.jpg" alt="WFiIS_logo">
+    </div>
+    
+    <div class = "title">
+      Układ Słoneczny i kosmos
+    </div>
+
+    <div class="logos_right">
+      <img class="logo" src="AGH.png" alt="AGH_logo">
+  </div>
+</header>
+
+    <div class = "music">
+      <audio autoplay loop>
+        <source src="rocketman.ogg" type="audio/ogg">
+      </audio>
+    </div>
+
+    <div class = "menu">
+      <nav>
+        <a class="tab" onclick="choice(1)">Strona główna</a>
+        <a class="tab" onclick="choice(2)">Wielki Wybuch</a>
+        <a class="tab" onclick="choice(3)">Grawitacja</a>
+        <a class="tab" onclick="choice(4)">Planety</a>
+        <a class="tab" onclick="choice(5)">Teoria</a>
+      </nav>
+    </div>
+
+    <div class = "content" id = "content">
+      <article class = "main_page">
+        <canvas class = "solar_system" id = "solar_system" height = "650" width = "1600" style="border:none"></canvas>
+        <script src="scripts.js"></script>
+      </article>
+    </div>
+
+    <footer class = "footer">
+      <div class = "footer_left">
+      <p>Autor: Michał Roguz, adres email: roguz@student.agh.edu.pl</p>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
+

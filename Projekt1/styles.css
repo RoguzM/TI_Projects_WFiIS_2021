@@ -1,0 +1,327 @@
+body {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 12.1 */
+          animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+.header
+{
+  top: 0;
+  background: transparent;
+  overflow: hidden;
+	display: flex;
+	height: 10%;
+  width: 100%;
+	z-index: 2;
+	position: relative;
+}
+
+.header .logos_left
+{
+  float: left;
+  width:10%;
+  text-align: left; 
+}
+
+.header .logos_right
+{
+  float: right;
+  width:10%;
+  text-align: right; 
+}
+
+.content
+{
+  display: flex;
+  background: transparent;
+  overflow: hidden;
+  margin: auto;
+  top: 12%;
+  opacity: 50%;
+  z-index: 2;
+  position: fixed;
+  text-align: center;
+}
+
+.main_page
+{
+  transition: .5s;
+  background-color: black;
+}
+
+.caption
+{
+  height: 20px;
+  z-index: 2;
+  font-size: 15px;
+  color: white;
+  font-family: 'Copperplate Gothic Light';
+}
+
+.music
+{
+  display: none;
+}
+
+.menu
+{
+  background-color: transparent;
+  overflow: hidden;
+	display: flex;
+  top: 8%;
+  left: 33%;
+	height: 50px;
+  width: 600px;
+	z-index: 3;
+	position: fixed;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+
+.menu .tab
+{
+  color: white;
+  font-family: 'Copperplate Gothic Light';
+  font-size: 15px;
+  height: 25px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 30px 7px;
+  text-align: center;
+  line-height: 50px;
+  justify-content: center;
+}
+
+.big_bang
+{
+  background-color:transparent;
+  left:0%;
+}
+
+.big_bang_article
+{
+  background-color: black;
+}
+
+.gravity_article
+{
+  background-color:black;
+  width: 1600px;
+  height: 600px;
+}
+
+.half
+{
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  float:left;
+  width:30%;
+  height: 600px;
+}
+
+.half_info
+{
+  margin-left: 50px;
+  display: flex;
+  float:left;
+  width:30%;
+  height: 600px;
+}
+
+.half_info_right
+{
+  margin-left: 50px;
+  display: flex;
+  float:left;
+  width:40%;
+  height: 600px;
+}
+
+.theory h2
+{
+  font-family: 'Copperplate Gothic Light';
+}
+
+.theory
+{
+  color: white;
+  width: 450px;
+  height: 300px;
+  text-align: left;
+  font-size: 13px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3{
+  text-align: center;
+}
+
+.formula
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.head
+{
+  text-align: center;
+  color: white;
+}
+
+.planet_hover:hover
+{
+  transform: scale(1.1);
+}
+
+.planets_info
+{
+  color: white;
+  width: 450px;
+  height: 100px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Copperplate Gothic Light';
+  font-size: 12px;
+}
+
+.info_title
+{
+  margin-left: 20px;
+  text-align: left;
+  width: 450px;
+}
+
+.list_planets
+{
+  width: 150px;
+}
+
+.planets_article
+{
+  margin-left: 200px;
+  background-color: black;
+  height: 600px;
+  width: 1600px;
+}
+
+.menu .tab:hover
+{
+  opacity: 60%;
+}
+
+.header .title
+{   
+    color: #fff;
+    font-family: 'Copperplate Gothic Light';
+    font-weight: 300;
+    width:80%;
+    font-size: 59px;
+    letter-spacing: 10px;
+    background: -webkit-linear-gradient(white, #38495a);
+    text-align: center; 
+    margin-left: 5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.footer
+{
+  background: transparent;
+  overflow: hidden;
+	display: flex;
+	height: 5%;
+	z-index: 2;
+	position: fixed;
+  color: white;
+  font-size: 12px;
+  padding: 5px 5px;
+  bottom: 0;
+}
+
+.footer_left
+{
+  font-family: 'Copperplate Gothic Light';
+  float:right;
+  text-align: left;
+}
